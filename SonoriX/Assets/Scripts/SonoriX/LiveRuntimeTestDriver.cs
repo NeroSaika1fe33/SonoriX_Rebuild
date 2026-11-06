@@ -13,6 +13,9 @@ using UnityEngine.Serialization;
 [RequireComponent(typeof(LiveSceneController))]
 public class LiveRuntimeTestDriver : MonoBehaviour
 {
+    [Header("启动")]
+    [SerializeField] private bool autoBoot = false;
+    
     [Header("FreeLaneInput")] [SerializeField]
     private bool enableFreeTestInput = true;
     [SerializeField] private LivePresentationRoot presentationRoot;
@@ -49,7 +52,10 @@ public class LiveRuntimeTestDriver : MonoBehaviour
 
     private void Start()
     {
-        BootTestRuntime();
+        if (autoBoot)
+        {
+            BootTestRuntime();
+        }
     }
 
     [ContextMenu("Restart Test Runtime")]

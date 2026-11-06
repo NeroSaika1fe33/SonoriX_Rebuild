@@ -140,7 +140,7 @@ namespace FFrameWork.Live
             //cutinManager?.SetupScore(score);
             scoreView?.SetupScore(score);
             clearGaugeView?.Execute(score.clearGauge);
-            comboView?.Excute(score);
+            comboView?.Execute(score);
             clearGauge = score.clearGauge;
         }
 
@@ -718,7 +718,7 @@ namespace FFrameWork.Live
 
         // コンボ表示を更新する
         // score: 更新後のスコア情報
-        public override void UpdateCombo(LiveScore score) => comboView?.Excute(score);
+        public override void UpdateCombo(LiveScore score) => comboView?.Execute(score);
 
         public override void UpdateClearGauge(int clearGauge)
         {
