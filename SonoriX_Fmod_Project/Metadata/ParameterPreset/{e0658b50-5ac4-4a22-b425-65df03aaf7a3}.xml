@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{e0658b50-5ac4-4a22-b425-65df03aaf7a3}">
+		<property name="name">
+			<value>WobbleMix</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d1adcd02-63be-4ce6-8e28-b27adb65eff6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{65f7bfdd-4fa3-4852-b60e-2e85796eaeda}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{65f7bfdd-4fa3-4852-b60e-2e85796eaeda}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

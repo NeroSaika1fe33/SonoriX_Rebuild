@@ -1,0 +1,306 @@
+#TITLE "C Match"
+#ARTIST "GEON"
+#DESIGNER "Ryo a.k.a. GEON"
+#DIFFICULTY 1
+#PLAYLEVEL 6
+#SONGID "5"
+#WAVE ""
+#WAVEOFFSET 0
+#JACKET ""
+
+#REQUEST "ticks_per_beat 480"
+
+#BPM01: 145
+#00008: 01
+
+#001.free.tap.l7: n4n4
+#002.free.tap.l7: n4n4
+#003.free.tap.l7: n4n4
+#004.free.tap.l7: n4n4
+#005.free.tap.l7: n4n4n4n4
+#006.free.tap.l7: n4n4n4n4
+#007.free.tap.l7: n4n4n4n4
+#008.free.tap.l7: n4n4n4n4
+#009.free.tap.l7: n4n4n4n4
+#010.free.tap.l7: n4n4n4n4
+#011.free.tap.l7: n4n4n4n4
+#012.free.tap.l7: n4n4n4n400000000
+
+#009.guide.long.l1.a: sg
+#012.guide.long.l1.a: eg
+
+#012.guide.long.l7.b: 0000 0000 i200 0000
+#012.guide.long.l3.b: 0000 0000 0000 o200
+#013.guide.long.l7.b: e2
+#012.guide.long.l9.c: 0000 0000 i200 0000
+#012.guide.long.l13.c: 0000 0000 00e2 0000
+#012.guide.long.l13.d: 0000 0000 0000 00o2
+#013.guide.long.l9.d: e2
+
+
+
+#013.fixed.tap.k1: n200n200
+#013.fixed.tap.k2: 000000n2
+#013.fixed.tap.k3: 000000n2
+#013.fixed.tap.k4: 00n20000
+
+#014.fixed.tap.k1: 00n20000
+#014.fixed.tap.k2: 000000n2
+#014.fixed.tap.k3: 000000n2
+#014.fixed.tap.k4: n200n200
+
+#015.fixed.tap.k1: n200n200
+#015.fixed.tap.k2: 000000n2
+#015.fixed.tap.k3: 000000n2
+#015.fixed.tap.k4: 00n20000
+
+#016.fixed.tap.k1: 00n20000
+#016.fixed.tap.k2: 000000n2
+#016.fixed.tap.k3: 000000n2
+#016.fixed.tap.k4: n200n200
+
+#017.fixed.tap.k1: n200n200
+#017.fixed.tap.k2: 000000n2
+#017.fixed.tap.k3: 000000n2
+#017.fixed.tap.k4: 00n20000
+
+#018.fixed.tap.k1: 00n20000
+#018.fixed.tap.k2: 000000n2
+#018.fixed.tap.k3: 000000n2
+#018.fixed.tap.k4: n200n200
+
+#019.fixed.tap.k1: n200n200
+#019.fixed.tap.k2: 000000n2
+#019.fixed.tap.k3: 000000n2
+#019.fixed.tap.k4: 00n20000
+
+#020.fixed.tap.k1: 00n20000
+#020.fixed.tap.k2: 000000n2
+#020.fixed.tap.k3: 000000n2
+#020.fixed.tap.k4: n200n200
+
+#021.fixed.tap.k1: 0000n200
+#021.fixed.tap.k2: 000000n2
+#021.fixed.tap.k3: 000000n2
+#021.fixed.tap.k4: 00n20000
+#021.free.tap.l7: n4
+
+#022.fixed.tap.k1: 00n20000
+#022.fixed.tap.k2: 000000n2
+#022.fixed.tap.k3: 000000n2
+#022.fixed.tap.k4: n200n200
+
+#023.fixed.tap.k1: n200n200
+#023.fixed.tap.k2: 000000n2
+#023.fixed.tap.k3: 000000n2
+#023.fixed.tap.k4: 00n20000
+
+#024.volume.long+.l8.a: s2000000 00000000 00000000 00000000
+#024.volume.long+.l1.a: 00000000 00000000 00000000 00eg0000
+#025.volume.flick.l8: d2
+
+#025.fixed.tap.k1: 0000n200
+#025.fixed.tap.k2: 00000000
+#025.fixed.tap.k3: 00n20000
+#025.fixed.tap.k4: 000000n2
+
+#026.fixed.tap.k1: 0000n200
+#026.fixed.tap.k2: n2000000
+#026.fixed.tap.k3: 00n20000
+#026.fixed.tap.k4: 000000n2
+
+#027.fixed.tap.k1: 0000n200
+#027.fixed.tap.k2: n2000000
+#027.fixed.tap.k3: 00n20000
+#027.fixed.tap.k4: 000000n2
+
+#028.fixed.tap.k1: 0000n200
+#028.fixed.tap.k2: n2000000
+#028.fixed.tap.k3: 00n20000
+#028.fixed.tap.k4: 000000n2
+
+#029.fixed.tap.k1: 0000n200
+#029.fixed.tap.k2: n2000000
+#029.fixed.tap.k3: 00n20000
+#029.fixed.tap.k4: 000000n2
+
+#030.fixed.tap.k1: 0000n200
+#030.fixed.tap.k2: n2000000
+#030.fixed.tap.k3: 00n20000
+#030.fixed.tap.k4: 000000n2
+
+#031.fixed.tap.k1: 0000n200
+#031.fixed.tap.k2: n2000000
+#031.fixed.tap.k3: 00n20000
+#031.fixed.tap.k4: 000000n2
+
+#032.fixed.tap.k1: 0000n200
+#032.fixed.tap.k2: n2000000
+#032.fixed.tap.k3: 00n20000
+#032.fixed.tap.k4: 00000000
+#032.free.tap.l5: 000000n8
+
+#033.fixed.tap.k1: 0000n200
+#033.fixed.tap.k2: n2000000
+#033.fixed.tap.k3: 00n20000
+#033.fixed.tap.k4: 000000n2
+
+#034.fixed.tap.k1: 0000n200
+#034.fixed.tap.k2: n2000000
+#034.fixed.tap.k3: 00n20000
+#034.fixed.tap.k4: 000000n2
+
+#035.fixed.tap.k1: 0000n200
+#035.fixed.tap.k2: n2000000
+#035.fixed.tap.k3: 00n20000
+#035.fixed.tap.k4: 000000n2
+#035.slider.flick.l1:000000 000000 000000 00l800
+
+#036.slider.flick.l1:rg00lg 00rg00 lg00rg 000000
+#036.slider.flick.l9:000000 000000 000000 00l800
+
+#037.fixed.tap.k1: 0000n200
+#037.fixed.tap.k2: n2000000
+#037.fixed.tap.k3: 00n20000
+#037.fixed.tap.k4: 00000000
+#037.free.long.l5.a: 0000 0000 0000 s8e8
+
+#038.fixed.tap.k1: 0000n200
+#038.fixed.tap.k2: n2000000
+#038.fixed.tap.k3: 00n20000
+#038.fixed.tap.k4: 00000000
+#038.volume.long+.l8.a:0000 0000 0000 s200
+#038.volume.long+.l1.a:0000 0000 0000 00eg
+
+#039.free.tap.l5: n8n80000
+#039.volume.flick.l8: 0000d200
+
+
+
+#040.free.tap.l7:n4000000
+#040.slider.long.l7.a: s4000000
+#040.free.tap.l1: 0000n400
+#040.slider.long.l1.a: 0000m400
+
+#041.free.tap.l11:n4000000
+#041.slider.long.l11.a: m4000000
+#041.free.tap.l6: 0000n400
+#041.slider.long.l6.a: 0000m400
+
+#042.free.tap.l10:n4000000
+#042.slider.long.l10.a: m4000000
+#042.free.tap.l1: 0000n400
+#042.slider.long.l1.a: 0000m400
+
+#043.free.tap.l8:n4n4n400
+#043.slider.long.l8.a: m4000000
+
+#044.free.tap.l8:n4000000
+#044.slider.long.l8.a: m4000000
+#044.free.tap.l4: 0000n400
+#044.slider.long.l4.a: 0000m400
+
+#045.free.tap.l13:n4000000
+#045.slider.long.l13.a: m4000000
+#045.free.tap.l7: 0000n400
+#045.slider.long.l7.a: 0000m400
+
+#046.free.tap.l5:n4000000
+#046.slider.long.l5.a: m4000000
+#046.free.tap.l12: 0000n400
+#046.slider.long.l12.a: 0000m400
+
+#047.free.tap.l7: n4n4n400
+#047.slider.long.l7.a: m4000000
+
+#048.slider.long.l7.a: e4000000
+#048.free.tap.l7: n4000000
+#048.free.tap.l9: 0000n400
+
+#049.free.tap.l6: n4000000
+#049.free.tap.l13: 0000n400
+
+#050.free.tap.l2: n4000000
+#050.free.tap.l13: 0000n400
+
+#051.free.tap.l1: n4n4n400
+
+#052.free.tap.l1: n4000000
+#052.free.tap.l11: 0000n400
+
+#053.free.tap.l2: n4000000
+#053.free.tap.l7: 0000n400
+
+#054.free.tap.l13: n4000000
+#054.free.tap.l7: 0000n400
+
+#055.volume.long+.l7.a:s400 0000 0000 0000
+#055.volume.long+.l1.a:0000 0000 0000 00eg
+
+#056.volume.flick.l8:d2000000
+#056.slider.long.l8.a: s2000000
+#056.volume.flick.l1:0000u700
+#056.slider.long.l1.a: 0000m700
+
+#057.volume.flick.l4:d4000000
+#057.slider.long.l4.a: m4000000
+#057.volume.flick.l1:0000u700
+#057.slider.long.l1.a: 0000m700
+
+#058.volume.flick.l2:d3000000
+#058.slider.long.l2.a: m3000000
+#058.volume.flick.l10:0000d200
+#058.slider.long.l10.a: 0000m200
+
+#059.volume.flick.l4:u7000000
+#059.slider.long.l4.a: m7000000
+#059.volume.flick.l1:0000ug00
+#059.slider.long.l1.a: 0000mg00
+
+#060.volume.flick.l15:d2000000
+#060.slider.long.l15.a: m2000000
+#060.volume.flick.l3:0000u500
+#060.slider.long.l3.a: 0000m500
+
+#061.volume.flick.l7:d4000000
+#061.slider.long.l7.a: m4000000
+#061.volume.flick.l2:0000u700
+#061.slider.long.l2.a: 0000m700
+
+#062.volume.flick.l5:d4000000
+#062.slider.long.l5.a:m4000000
+#062.volume.flick.l8:0000d200
+#062.slider.long.l8.a:0000m200
+
+#063.volume.flick.l1:ug000000
+#063.slider.long.l1.a:mg000000
+#063.volume.flick.l5:0000d800
+#063.slider.long.l5.a:0000m800
+
+#064.volume.flick.l8:d2000000
+#064.slider.long.l8.a:e2000000
+#064.volume.flick.l4:0000u600
+
+#065.volume.flick.l15:d2 
+#065.volume.flick.l1:00u5
+
+#066.volume.flick.l4:d4
+#066.volume.flick.l7:00u6
+
+#067.volume.flick.l8:d2d2
+#067.volume.flick.l5:00u80000
+
+#068.volume.flick.l1:u7
+#068.volume.flick.l5:00d4
+
+#069.volume.flick.l1:ug
+#069.volume.flick.l13:00d4
+
+#070.volume.flick.l4:d2
+#070.volume.flick.l8:00u4
+
+#071.volume.long+.l7.a:s400 0000 0000 0000
+#071.volume.long+.l1.a:0000 0000 0000 eg00
+
+#072.free.tap.l5:n8n80000
+#072.volume.flick.l8:00d2

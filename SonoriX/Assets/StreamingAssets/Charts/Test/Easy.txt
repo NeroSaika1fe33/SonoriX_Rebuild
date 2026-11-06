@@ -1,0 +1,64 @@
+#TITLE "Test"
+#ARTIST "MIKU"
+#DESIGNER " "
+#DIFFICULTY 0
+#PLAYLEVEL 1
+#SONGID "4"
+#WAVE ""
+#WAVEOFFSET 0
+#JACKET ""
+
+#REQUEST "ticks_per_beat 480"
+
+#BPM01: 140
+#00008: 01
+
+#001.free.tap.l7:  n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4
+#002.free.tap.l7:  n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4
+#003.free.tap.l7:  n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4
+#004.free.tap.l7:  n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4
+#005.free.tap.l7:  n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4
+#006.free.tap.l7:  n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4
+#007.free.tap.l7:  n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4
+#008.free.tap.l7:  n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4
+#009.free.tap.l7:  n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4n4
+
+#011.fixed.tap.k1: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#012.fixed.tap.k1: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#013.fixed.tap.k1: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#014.fixed.tap.k1: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#015.fixed.tap.k1: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#016.fixed.tap.k1: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#017.fixed.tap.k1: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#018.fixed.tap.k1: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#019.fixed.tap.k1: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+
+#021.fixed.tap.k2: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#022.fixed.tap.k2: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#023.fixed.tap.k2: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#024.fixed.tap.k2: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#025.fixed.tap.k2: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#026.fixed.tap.k2: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#027.fixed.tap.k2: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#028.fixed.tap.k2: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#029.fixed.tap.k2: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+
+#031.fixed.tap.k3: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#032.fixed.tap.k3: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#033.fixed.tap.k3: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#034.fixed.tap.k3: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#035.fixed.tap.k3: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#036.fixed.tap.k3: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#037.fixed.tap.k3: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#038.fixed.tap.k3: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#039.fixed.tap.k3: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+
+#041.fixed.tap.k4: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#042.fixed.tap.k4: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#043.fixed.tap.k4: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#044.fixed.tap.k4: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#045.fixed.tap.k4: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#046.fixed.tap.k4: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#047.fixed.tap.k4: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#048.fixed.tap.k4: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2
+#049.fixed.tap.k4: n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2n2

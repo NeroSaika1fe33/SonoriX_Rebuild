@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{1e440d31-59e9-4675-bced-4f455fc8cae8}">
+		<property name="name">
+			<value>CHIKAI</value>
+		</property>
+		<relationship name="folder">
+			<destination>{15c62521-bdce-433c-88b9-4a74c091b75e}</destination>
+		</relationship>
+	</object>
+</objects>

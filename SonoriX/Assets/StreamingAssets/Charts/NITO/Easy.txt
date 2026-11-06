@@ -1,0 +1,95 @@
+#TITLE "NITO"
+#ARTIST "CHIKAI"
+#DESIGNER " "
+#DIFFICULTY 0
+#PLAYLEVEL 1
+#SONGID "4"
+#WAVE ""
+#WAVEOFFSET 0
+#JACKET ""
+
+#REQUEST "ticks_per_beat 480"
+
+#BPM01: 120
+#00008: 01
+
+#002.fixed.tap.k1:     n200n200
+#003.fixed.tap.k1:     n200n200
+#004.fixed.tap.k2:     n200n200
+#005.fixed.tap.k3:     n200n200
+#006.fixed.tap.k4:     n200n200
+#007.fixed.tap.k1:     n2000000
+#007.fixed.tap.k2:     0000n200
+#008.fixed.tap.k3:     n2000000
+#008.fixed.tap.k4:     0000n200
+#009.fixed.tap.k1:     n2000000
+#009.fixed.tap.k2:     0000n200
+#010.fixed.tap.k3:     n2000000
+#010.fixed.tap.k4:     0000n200
+#012.free.tap.l7:      n400n400
+#013.free.tap.l7:      n400n400
+#014.free.tap.l11:     n400n400
+#015.free.tap.l11:     n400n400
+#016.free.tap.l3:      n400n400
+#017.free.tap.l3:      n400n400
+#018.free.tap.l7:      n400n400
+#019.free.tap.l7:      n4000000
+#020.free.long.l7.a:   s4000000
+#021.free.long.l7.a:   000000e4
+#023.free.long.l7.b:   s4000000
+#024.free.long.l11.b:  m4000000
+#025.free.long.l7.b:   m40000e4
+
+#027.slider.flick.l7:  r9000000
+#028.slider.flick.l7:  l9000000
+#029.slider.flick.l1:  l9000000
+#030.slider.flick.l1:  r9000000
+
+#031.slider.flick.l7:  r9000000
+#032.slider.flick.l7:  l9000000
+#033.slider.flick.l1:  l9000000
+#034.slider.flick.l1:  r9000000
+
+#036.slider.long.l7.c: s4000000
+#037.slider.long.l7.c: 000000e4
+
+#038.slider.long.l7.d: s4000000
+#039.slider.long.l3.d: m4000000
+#040.slider.long.l7.d: m40000e4
+
+#042.volume.flick.l6:  u6000000
+#043.volume.flick.l5:  u8000000
+#044.volume.flick.l4:  ua000000
+
+#046.volume.flick.l5:  d8000000
+#047.volume.flick.l6:  d6000000
+#048.volume.flick.l7:  d4000000
+
+#050.volume.long+.l7.e:s4000000
+#051.volume.long+.l5.e:000000e8
+
+#053.volume.long-.l5.f:s8000000
+#054.volume.long-.l7.f:000000e4
+
+#056.volume.long+.l7.e:s4000000
+#057.volume.long+.l5.e:000000e8
+
+#059.volume.long-.l5.f:s8000000
+#060.volume.long-.l7.f:000000e4
+
+#062.guide.long.l7.j:  s4000000
+#063.guide.long.l7.j:  000000e4
+
+#065.guide.long.l7.k:   s4000000
+#066.guide.long.l11.k:  m4000000
+#067.guide.long.l7.k:   m40000e4
+
+#069.fixed.tap.k1:     n2000000
+#070.free.tap.l7:      n4000000
+#071.fixed.tap.k2:     n2000000
+#072.free.tap.l7:      n4000000
+#073.fixed.tap.k3:     n2000000
+#074.free.tap.l7:      n4000000
+#075.fixed.tap.k4:     n2000000
+#076.free.long.l7.g:   s4000000
+#076.free.long.l1.g:   000000eg

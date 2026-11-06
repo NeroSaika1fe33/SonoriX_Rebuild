@@ -1,0 +1,6 @@
+#BPM 120
+
+#002 Free.Long.L9.path:s4
+#003 Free.Long.L17.path:i8
+#004 Free.Long.L9.path:o4
+#005 Free.Long.L13.path:e4

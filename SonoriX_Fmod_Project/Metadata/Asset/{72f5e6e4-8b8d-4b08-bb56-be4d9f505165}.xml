@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{72f5e6e4-8b8d-4b08-bb56-be4d9f505165}">
+		<property name="assetPath">
+			<value>CHIKAI/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4f17252b-82e8-45cf-8a5f-3c15430693fb}</destination>
+		</relationship>
+	</object>
+</objects>

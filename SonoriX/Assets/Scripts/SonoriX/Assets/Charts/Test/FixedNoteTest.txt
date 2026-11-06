@@ -1,0 +1,9 @@
+#BPM 120
+
+#001 Fixed.Tap.K1:n4
+#002 Fixed.Tap.K2:n4
+#003 Fixed.Tap.K3:n4
+#004 Fixed.Tap.K4:n4
+
+#005 Fixed.Long.K1.a:s4e4
+#006 Fixed.Long.K1.b:s8e8

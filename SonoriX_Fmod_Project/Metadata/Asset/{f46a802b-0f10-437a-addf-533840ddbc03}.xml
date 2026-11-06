@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{f46a802b-0f10-437a-addf-533840ddbc03}">
+		<property name="assetPath">
+			<value>YAMADA/YamadaKanon/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4f17252b-82e8-45cf-8a5f-3c15430693fb}</destination>
+		</relationship>
+	</object>
+</objects>

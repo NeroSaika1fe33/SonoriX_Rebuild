@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{de210c0b-6de2-44ba-b9b7-e6f2345eff12}">
+		<property name="assetPath">
+			<value>TRANCE1/Audio/TRANCE1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>314.39999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4f17252b-82e8-45cf-8a5f-3c15430693fb}</destination>
+		</relationship>
+	</object>
+</objects>

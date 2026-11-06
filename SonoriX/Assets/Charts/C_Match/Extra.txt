@@ -1,0 +1,14 @@
+#TITLE "Dream"
+#ARTIST "GEON"
+#DESIGNER "Ryo a.k.a. GEON"
+#DIFFICULTY 4
+#PLAYLEVEL 5
+#SONGID "3"
+#WAVE ""
+#WAVEOFFSET 0
+#JACKET ""
+
+#REQUEST "ticks_per_beat 480"
+
+#BPM01: 145
+#00008: 01

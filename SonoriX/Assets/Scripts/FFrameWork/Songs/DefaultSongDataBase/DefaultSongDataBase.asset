@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 654e8c51b65d8ce47a85e29286b7b2cc, type: 3}
+  m_Name: DefaultSongDataBase
+  m_EditorClassIdentifier: Assembly-CSharp::FFrameWork.Songs.SongSelectDataBase
+  songs:
+  - {fileID: 11400000, guid: 437575652ba95e041ba6935b2ac5b857, type: 2}
+  - {fileID: 11400000, guid: 1a25b640f54d369458921d654ac3b524, type: 2}
+  - {fileID: 11400000, guid: e2ce5aabbfe105749982595fd99821c4, type: 2}
+  - {fileID: 11400000, guid: c6b86988f0369d540b9c357edf3e54c3, type: 2}
+  - {fileID: 11400000, guid: a085ecb22db00664f87892af228ee8f0, type: 2}
+  - {fileID: 11400000, guid: 1e998165cf976244fb9be40e42526076, type: 2}
+  - {fileID: 11400000, guid: cee9a2f096f15c54099bbf60b64f6a15, type: 2}
+  - {fileID: 11400000, guid: f7e2e062aeb57054695a67c6ffb4939a, type: 2}
+  - {fileID: 11400000, guid: 8cc42a3722aa6594998f74899cda3f7f, type: 2}
+  - {fileID: 11400000, guid: 8cc42a3722aa6594998f74899cda3f7f, type: 2}
+  - {fileID: 11400000, guid: c9eba50fc802af3448e3fd93cad98c0d, type: 2}
+  - {fileID: 11400000, guid: 9b8ed89395f04434dba7ab17c099d921, type: 2}

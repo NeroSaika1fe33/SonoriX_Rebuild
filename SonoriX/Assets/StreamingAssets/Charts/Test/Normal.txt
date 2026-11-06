@@ -1,0 +1,38 @@
+#TITLE "Test"
+#ARTIST "MIKU"
+#DESIGNER " "
+#DIFFICULTY 2
+#PLAYLEVEL 1
+#SONGID "4"
+#WAVE ""
+#WAVEOFFSET 0
+#JACKET ""
+
+#REQUEST "ticks_per_beat 480"
+
+#BPM01: 140
+#00008: 01
+
+#001.slider.long.l7.a:i400i400i400i400
+#001.slider.long.l13.a:00o400o400o400o4
+
+#002.slider.long.l7.a:i400i400i400i400
+#002.slider.long.l13.a:00o400o400o400o4
+
+#003.slider.long.l7.a:i400i400i400i400
+#003.slider.long.l13.a:00o400o400o400o4
+
+#004.slider.long.l7.a:i400i400i400i400
+#004.slider.long.l13.a:00o400o400o400o4
+
+#005.slider.long.l7.a:i400i400i400i400
+#005.slider.long.l13.a:00o400o400o400o4
+
+#006.slider.long.l7.a:i400i400i400i400
+#006.slider.long.l13.a:00o400o400o400o4
+
+#007.slider.long.l7.a:i400i400i400i400
+#007.slider.long.l13.a:00o400o400o400o4
+
+#008.slider.long.l7.a:i400i400i400e400
+#008.slider.long.l13.a:00o400o400o40000

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9ecfe806-da7c-4ae2-be5f-72abe68c54d4}">
+		<property name="assetPath">
+			<value>SE/epic_stock_media-ancient_game_dark_magic_buff_2_fantasy_tonal_accent_hit_stab-386295.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.7877551020408164</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4f17252b-82e8-45cf-8a5f-3c15430693fb}</destination>
+		</relationship>
+	</object>
+</objects>

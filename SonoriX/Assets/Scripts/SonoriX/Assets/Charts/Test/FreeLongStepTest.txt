@@ -1,0 +1,5 @@
+#BPM 120
+
+#002 Free.Long.L9.step:s4
+#003 Free.Long.L9.step:a4
+#004 Free.Long.L17.step:e4

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{741a5592-4a21-403d-aece-b66bab4c6d56}">
+		<property name="name">
+			<value>HighpassCutoff</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d1adcd02-63be-4ce6-8e28-b27adb65eff6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7f2b87f8-b024-48ed-aa9a-67ec92c9a2bf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7f2b87f8-b024-48ed-aa9a-67ec92c9a2bf}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

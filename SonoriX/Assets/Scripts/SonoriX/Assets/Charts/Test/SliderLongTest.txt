@@ -1,0 +1,4 @@
+#BPM 120
+
+#002 Slider.Long.L9.slider:s4
+#004 Slider.Long.L17.slider:e4

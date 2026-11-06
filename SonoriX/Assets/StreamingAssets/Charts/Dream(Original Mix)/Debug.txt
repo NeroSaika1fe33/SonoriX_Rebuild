@@ -1,0 +1,21 @@
+#TITLE "Dream(Original Mix) Debug"
+#ARTIST "GEON"
+#DESIGNER "Debug"
+#DIFFICULTY 0
+#PLAYLEVEL 1
+#SONGID ""
+#WAVE ""
+#WAVEOFFSET 0
+#JACKET ""
+
+#REQUEST "ticks_per_beat 480"
+
+#00002: 4
+
+#BPM01: 160
+#00008: 01
+
+#TIL00: ""
+#VOLUME: ""
+#HISPEED 00
+#MEASUREHS 00

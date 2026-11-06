@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{df873282-7373-412f-81e0-e98bd25e45a9}">
+		<property name="assetPath">
+			<value>YAMADA/Dream(Original Mix)/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4f17252b-82e8-45cf-8a5f-3c15430693fb}</destination>
+		</relationship>
+	</object>
+</objects>

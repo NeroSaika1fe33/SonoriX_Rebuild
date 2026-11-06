@@ -1,0 +1,83 @@
+# SonoriX: Unity + FMOD Studio.
+# Copy this file to the outer repository root before the first git add.
+
+# Unity generated data
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.utmp/
+[Mm]emoryCaptures/
+[Pp]rofilerCaptures/
+[Rr]ecordings/
+ExportedObj/
+
+# Unity build output (inner Unity root or outer repository root).
+# Keep SonoriX_Fmod_Project/Build/: these are shared source banks.
+/[Bb]uild/
+/[Bb]uilds/
+/[Dd]ebug[Bb]uild/
+/[Aa]sset[Bb]undles/
+/SonoriX/[Bb]uild/
+/SonoriX/[Bb]uilds/
+/SonoriX/[Dd]ebug[Bb]uild/
+/SonoriX/[Aa]sset[Bb]undles/
+
+# IDE caches and generated Unity solutions/projects
+.idea/
+.vs/
+.vscode/
+.gradle/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.csproj.DotSettings
+*.DotSettings.user
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+*.pdb
+*.mdb
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+**/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Local installers, temporary files and crash reports
+*.unitypackage
+*.unitypackage.meta
+*.tmp
+*.log
+sysinfo.txt
+hs_err_pid*
+crashlytics-build.properties
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unity generated Addressables data
+**/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+**/[Aa]ssets/[Ss]treamingAssets/aa/
+**/[Aa]ssets/[Ss]treamingAssets/aa.meta
+
+# FMOD Unity: keep SDK, native libraries, settings and .meta files.
+# Only ignore the local editor cache.
+**/[Aa]ssets/Plugins/FMOD/Cache/
+**/[Aa]ssets/Plugins/FMOD/Cache.meta
+
+# FMOD Studio sibling project: keep .fspro, Assets/, Metadata/ and Build/.
+# These rules cover the sibling once this file is copied to the repository root.
+**/SonoriX_Fmod_Project/.cache/
+**/SonoriX_Fmod_Project/.user/
+**/SonoriX_Fmod_Project/.unsaved/
+
+# Keep *.asset, *.dll, *.bank, resource .meta files and audio/video sources.
+# Large binary assets use Git LFS rather than blanket ignore rules.

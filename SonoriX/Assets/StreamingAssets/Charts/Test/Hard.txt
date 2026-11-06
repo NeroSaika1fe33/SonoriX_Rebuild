@@ -1,0 +1,19 @@
+#TITLE "Test"
+#ARTIST "MIKU"
+#DESIGNER " "
+#DIFFICULTY 3
+#PLAYLEVEL 1
+#SONGID "4"
+#WAVE ""
+#WAVEOFFSET 0
+#JACKET ""
+
+#REQUEST "ticks_per_beat 480"
+
+#BPM01: 140
+#00008: 01
+
+#001.free.long.l13.o:  00s4e40000000000
+#001.fixed.long.k3.s:  00s4e40000000000
+#001.free.long.l1.o:   000000s4e4000000
+#001.fixed.long.k1.g:  000000s4e4000000

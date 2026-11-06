@@ -1,0 +1,227 @@
+{
+    "version": 1,
+    "name": "xxAxxInput",
+    "maps": [
+        {
+            "name": "InLiveInput",
+            "id": "cc606543-767e-4706-b93a-32bed30d7cfe",
+            "actions": [
+                {
+                    "name": "ArrowInputSize",
+                    "type": "Value",
+                    "id": "3b80a88d-5f49-42bf-8d71-48c1488e65bf",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ArrowInputPosition",
+                    "type": "Value",
+                    "id": "b1fded79-c786-46d2-a490-43c2a383c8f0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "FreeLaneInput",
+                    "type": "Button",
+                    "id": "c3a05b9b-e835-4091-a81c-231937087df5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "FixedLaneInput0",
+                    "type": "Button",
+                    "id": "e9762747-1d69-4673-b8f3-b71632625e8b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FixedLaneInput1",
+                    "type": "Button",
+                    "id": "3ad6160b-9b1e-4608-8098-bc43d189a2a8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FixedLaneInput2",
+                    "type": "Button",
+                    "id": "669a0f15-de1c-4c12-ae03-1642afaf6680",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FixedLaneInput3",
+                    "type": "Button",
+                    "id": "37635a61-e4d7-438d-8ce6-cbdd35757ba4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "28c9380c-6851-45e6-9369-b67df3f2bc68",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FreeLaneInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f7b82e26-b15d-49db-a2b9-a1e3d40f5b0a",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FreeLaneInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac225ef1-4148-4850-aece-d8f77defcf80",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FixedLaneInput0",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "399d918b-d6f3-4adb-abbd-15a1c8970502",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FixedLaneInput1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2b1c90bc-ae80-4af8-8dac-5937bdbf1808",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FixedLaneInput2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6af2ab79-2b36-4058-9802-5fa851333108",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FixedLaneInput3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4ce227e2-7aec-436b-b8e3-64e343d3067d",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ArrowInputSize",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "71af7b26-e196-4541-8db7-41327d414064",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ArrowInputPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "OutLiveInput",
+            "id": "d9144ca2-fbab-447b-aebc-bb372a84a180",
+            "actions": [
+                {
+                    "name": "SelectSongs",
+                    "type": "Button",
+                    "id": "78171569-d720-4804-b9ee-39f3e62d1f38",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "75ca9e03-e7d8-458e-9e7c-7fdc4503d4c6",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectSongs",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "SelectUpDown",
+                    "id": "0579e4c3-12c4-4d4f-8137-bbe14e631a7d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectSongs",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "cd9477b1-b17c-4e21-a7c8-fda374f200d0",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectSongs",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "3f164378-3f9c-47f5-89c8-1d874c96f4da",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectSongs",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

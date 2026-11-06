@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{22437e10-7ede-4dbf-8e60-694f45b4cfc9}">
+		<property name="name">
+			<value>FlangerDepth</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d1adcd02-63be-4ce6-8e28-b27adb65eff6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e65d2d67-cc05-4bf3-96ac-f55a029fe921}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e65d2d67-cc05-4bf3-96ac-f55a029fe921}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{a9062320-d830-4b43-8845-6127cd1dba75}">
+		<property name="name">
+			<value>C_Match</value>
+		</property>
+		<relationship name="folder">
+			<destination>{aa22b64d-c98f-4b4c-86c0-ed40a207e869}</destination>
+		</relationship>
+	</object>
+</objects>
