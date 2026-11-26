@@ -1,57 +1,69 @@
-# SonoriX
+# SonoriX 開発手順
 
-基于 Unity 与 FMOD 的音乐游戏项目，包含谱面读取、轨道输入、音符判定、计分和演出展示。目前正在重构旧实现，旧版与新版暂时并存，新版尚未完整替代旧版。
+作品の概要と新しい譜面解析器については、[リポジトリの README](../README.md) をご覧ください。このページでは、Unity と FMOD の構成、プロジェクトの開き方をまとめています。
 
-## 当前阶段与代码结构
+## コードの構成
 
-| 命名空间 | 代码目录 | 定位 |
+| 名前空間 | ディレクトリ | 役割 |
 | --- | --- | --- |
-| `FFrameWork.*` | `Assets/Scripts/FFrameWork/` | 旧版实现，保留现有玩法与演出流程，仍会维护和修复 |
-| `SonoriX.*` | `Assets/Scripts/SonoriX/` | 重构中的新架构，将数据与规则（Domain）、运行逻辑（Runtime）、输入与谱面解析（Infrastructure）、场景调度（App）和展示（Presentation）分开 |
+| `FFrameWork.*` | `Assets/Scripts/FFrameWork/` | 既存のゲームと演出を動かす旧実装 |
+| `SonoriX.*` | `Assets/Scripts/SonoriX/` | 譜面解析、演奏処理、入力、表示を分けて再設計している新実装 |
 
-两套代码目前都参与 Unity 编译。目录中的少量脚本尚未统一命名空间，例如新版测试入口 `LiveRuntimeTestDriver` 位于全局命名空间。
+両方のコードが Unity のコンパイル対象になっています。新実装は Domain、Runtime、Infrastructure、App、Presentation に分けています。一部の開発用スクリプトはグローバル名前空間にあり、`LiveRuntimeTestDriver` が新実装のテスト入口です。
 
-- **旧版场景**：`Assets/Scenes/xxAxxLive.unity`，也是当前构建配置启用的场景。
-- **重构测试场景**：`Assets/Scenes/SonoriX.unity`，通过 `LiveRuntimeTestDriver` 加载谱面、模拟输入并启动运行逻辑；目前使用 `ManualLiveClock`，属于开发测试入口。
+## プロジェクトを開く
 
-## 克隆与打开
+Unity **6000.4.5f1** を使用します。バージョンは [ProjectVersion.txt](ProjectSettings/ProjectVersion.txt) で確認できます。
 
-仓库同时包含两个工程，请保留它们的相对位置：
+Git LFS をインストールしてから、次の手順で取得します。
+
+```powershell
+git lfs install
+git clone https://github.com/NeroSaika1fe33/SonoriX_Rebuild.git
+Set-Location SonoriX_Rebuild
+git lfs pull
+```
+
+Unity と FMOD Studio のプロジェクトは、次の位置関係で管理しています。
 
 ```text
-仓库根目录/
-├── SonoriX/                     # Unity 工程
-└── SonoriX_Fmod_Project/         # FMOD Studio 源工程
+SonoriX_Rebuild/
+├── SonoriX/                 Unity プロジェクト
+└── SonoriX_Fmod_Project/     FMOD Studio プロジェクト
     ├── SonoriX.fspro
     ├── Metadata/
     ├── Assets/
     └── Build/
 ```
 
-1. 安装 **Unity 6000.4.5f1**（以 `ProjectSettings/ProjectVersion.txt` 为准）。
-2. 安装 [Git LFS](https://git-lfs.com/)，再克隆并下载音频、视频和 Bank：
+Unity Hub から内側の `SonoriX/` を開き、パッケージの復元とアセットの読み込みが終わるまで待ちます。
 
-   ```powershell
-   git lfs install
-   git clone https://github.com/NeroSaika1fe33/SonoriX_Rebuild.git
-   Set-Location SonoriX_Rebuild
-   git lfs pull
-   ```
+## シーンの使い分け
 
-3. 用 Unity Hub 打开内层 `SonoriX/`，等待依赖还原和资源导入，再打开所需场景。
+- `Assets/Scenes/xxAxxLive.unity`：旧実装のゲームシーン。現在のビルド設定で有効になっています。
+- `Assets/Scenes/SonoriX.unity`：新実装のテストシーン。`LiveRuntimeTestDriver` で譜面や入力を設定し、`ManualLiveClock` を使って演奏処理を進めます。
 
-## FMOD 注意事项
+新実装のテストでは、`LiveRuntimeTestDriver` の `Chart Text` に解析対象のテキストを設定します。必要な参照を確認して `Auto Boot` を有効にし、Play モードで起動します。Play モード中にやり直す場合は、コンポーネントのコンテキストメニューから `Restart Test Runtime` を実行します。
 
-**Unity 插件和 FMOD Studio 编辑器是两个独立部分。** 仓库已包含 **FMOD for Unity 2.03.14** 插件、配置、音频源工程及 Bank；插件用于 Unity 播放音频，编辑音频工程还需在每台电脑上单独安装 [FMOD Studio 2.03.14](https://www.fmod.com/download)。
+譜面解析の確認処理は、Unity Editor の `SonoriX → Checks → Chart Compiler` から実行できます。
 
-- 编辑音频：在 FMOD Studio 中打开 `SonoriX_Fmod_Project/SonoriX.fspro`。必须同时保留 `Metadata/` 和音频 `Assets/`；Bank 不能替代可编辑的源工程。
-- Unity 关联：在 **FMOD → Edit Settings** 检查工程路径为 `../SonoriX_Fmod_Project/SonoriX.fspro`；若使用 Bank 文件夹模式，选择 `../SonoriX_Fmod_Project/Build`。这些路径相对 Unity 工程目录。
-- 若 Unity 无法自动启动 Studio，先确认本机已安装并配置软件关联，也可以直接从 Studio 打开 `.fspro`。
-- 更新音频：在 Studio 执行 **File → Build All Platforms**，回 Unity 刷新 Bank，再一起提交源工程和更新的 Bank（含 Unity `Assets/StreamingAssets/` 中的播放 Bank）。
-- 克隆后若音频缺失，先检查 `git lfs pull` 是否成功；若插件确实缺失，再导入同版本插件，保留已有配置和 `.meta`。
+## FMOD の設定
 
-## 日常提交
+リポジトリには **FMOD for Unity 2.03.14**、設定、編集用音声プロジェクト、Bank を含めています。音声を編集する場合は、別途 [FMOD Studio 2.03.14](https://www.fmod.com/download) をインストールします。
 
-旧场景维护与新版重构按功能分别 commit，在 Rider 中选择本次相关文件，并带上依赖的脚本、Prefab 或资源即可，无需仅为分开提交而创建分支。需要长期保留稳定版、同时推进未完成重构时，再采用 `main` 与 `refactor/sonorix` 分支。
+1. FMOD Studio で `SonoriX_Fmod_Project/SonoriX.fspro` を開きます。`Metadata/` と音声素材の `Assets/` も一緒に保管してください。
+2. Unity の `FMOD → Edit Settings` で、プロジェクトのパスを `../SonoriX_Fmod_Project/SonoriX.fspro` に設定します。Bank フォルダーを指定する場合は `../SonoriX_Fmod_Project/Build` を使います。どちらも Unity プロジェクトからの相対パスです。
+3. 音声を変更したら、Studio の `File → Build All Platforms` で Bank を生成し、Unity 側でも更新します。
+4. 編集用プロジェクトと、更新した Bank を一緒に管理します。`Assets/StreamingAssets/` の再生用 Bank も確認してください。
 
-Unity 和 FMOD 共用外层仓库；切换分支会同时切换两套工程。音频、视频、Bank 和已配置的原生库使用 Git LFS，保留仓库根目录的 `.gitattributes`；资源 `.meta` 要与资源一起提交，缓存和软件安装目录不提交。
+Bank は再生用のデータです。あとから音声を編集できるように、元の FMOD Studio プロジェクトも残しています。
+
+音声が読み込めない場合は、まず `git lfs pull` が完了しているかを確認します。Unity から Studio が起動しない場合は、本機に Studio がインストールされているかを確認し、必要に応じて `.fspro` を Studio から直接開いてください。
+
+## ファイルの管理
+
+Unity と FMOD は、外側の一つの Git リポジトリで管理しています。旧実装の修正と新実装の開発は、変更内容ごとにコミットを分けています。
+
+音声、動画、Bank、一部のネイティブライブラリは Git LFS で管理します。リポジトリ直下の `.gitattributes` を保持し、アセットと対応する `.meta` は一緒に扱ってください。Unity のキャッシュやソフトウェアのインストール先は管理対象に含めません。
+
+長期間安定版を保ちながら作業する場合は、用途に応じてブランチを分けます。ブランチの切り替えは、Unity と FMOD の両方に反映されます。
